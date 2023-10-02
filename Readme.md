@@ -1,9 +1,13 @@
+# Badge status
+[CircleCI](https://dl.circleci.com/status-badge/img/gh/trungld123/trungld6_project5/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/img/gh/trungld123/trungld6_project5/tree/main.svg?style=svg)
+
 # Url app
 http://a798d3777b450463dae2ad6349dfc917-1202729838.us-east-1.elb.amazonaws.com:3000/
 # Github
 https://github.com/trungld123/trungld6_project5
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/trungld123/trungld6_project5/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/img/gh/trungld123/trungld6_project5/tree/main.svg?style=svg)
+# CircleCi
+https://app.circleci.com/pipelines/github/trungld123/trungld6_project5?branch=main
 
 # Propose and Scope the Project
 1. My pipeline
