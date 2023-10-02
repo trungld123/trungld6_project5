@@ -96,7 +96,6 @@ jobs:
             kubectl expose deployment capstone-project-eks --port=3000 --target-port=3000 --name=capstone-project-lb --type=LoadBalancer
             kubectl get deploy,rs,svc,pods
             echo "-----------------------------------"
-
 workflows:
   default:
     jobs:
