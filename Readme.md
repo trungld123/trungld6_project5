@@ -1,6 +1,5 @@
 # Badge status
-[[!CircleCI](https://dl.circleci.com/status-badge/img/gh/trungld123/trungld6_project5/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/img/gh/trungld123/trungld6_project5/tree/main.svg?style=svg)
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/trungld123/trungld6_project5/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/img/gh/trungld123/trungld6_project5/tree/main.svg?style=svg)
 # Url app
 http://a798d3777b450463dae2ad6349dfc917-1202729838.us-east-1.elb.amazonaws.com:3000/
 # Github
