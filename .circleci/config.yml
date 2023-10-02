@@ -57,6 +57,7 @@ jobs:
             docker login --username "${DOCKER_PATH}" --password "${DOCKER_PASS}"
             docker image tag "capstone-project-${CIRCLE_WORKFLOW_ID:0:7}" "${DOCKER_PATH}/capstone-project-${CIRCLE_WORKFLOW_ID:0:7}"
             docker image push "${DOCKER_PATH}/capstone-project-${CIRCLE_WORKFLOW_ID:0:7}"
+
   deploy:
     docker:
       - image: amazon/aws-cli
@@ -100,7 +101,7 @@ workflows:
   default:
     jobs:
       - build
-      - push:
-          requires: [build]
-      - deploy:
-          requires: [push]
+      # - push:
+      #     requires: [build]
+      # - deploy:
+      #     requires: [push]
